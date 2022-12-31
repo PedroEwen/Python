@@ -1,0 +1,10 @@
+print('}-----------------{')
+print(' CONTADOR DE LITROS  ')
+print(' -by CoralAchaqui- ')
+print('}-----------------{')
+lar = float(input('Largura em metros:'))
+alt = float(input('Altura em metros:'))
+area = (lar * alt)
+res = area / 2
+print("Você tem uma área de:", area,'M^2')
+print('Você vai precisar de:', res, 'litros de tinta.')
