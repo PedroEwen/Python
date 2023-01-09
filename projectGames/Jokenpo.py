@@ -1,22 +1,25 @@
 #PEDRA, PAPEL OU TESOURA
+import time
 import random
 
-print('ESCOLHA!')
-print('1 - Pedra')
-print('2 - Papel')
-print('3 - Tesoura')
+print('ESCOLHA:')
+print('- Pedra')
+print('- Papel')
+print('- Tesoura')
 print('Não me deixe roubar, digite o objeto escolhido!')
 esc = input('R:').capitalize().strip()
+time.sleep(1)
 lista = ['Pedra', 'Papel', 'Tesoura']
 sort = random.choice(lista)
-print('Eu escolhi...', sort)
+print('Eu escolhi...')
+time.sleep(1)
 if esc == 'Papel' and sort == 'Pedra':       #PAPEL GANHA PEDRA
-    print('Você ganhou :,)')
+    print(sort+', você ganhou :,)')
 elif esc == 'Tesoura' and sort == 'Papel':    #TESOURA GANHA PAPEL
-    print('Você ganhou :,)')
+    print(sort+', você ganhou :,)')
 elif esc == 'Pedra' and sort == 'Tesoura':     #PEDRA GANHA TESOURA
-    print('Você ganhou :,)')
+    print(sort+', você ganhou :,)')
 elif esc == sort:
-    print('Empatamos :)')
+    print(sort+', empatamos :)')
 else:
-    print('Eu ganhei! :p')
+    print(sort+', eu ganhei')
