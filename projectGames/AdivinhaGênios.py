@@ -1,5 +1,5 @@
 import random
-
+import time
 print('-=+=-' * 11)
 print('                     AdivGênios                    ')
 print(' ')
@@ -9,13 +9,13 @@ print('-=+=-' * 11)
 print(' ')
 print(' ')
 nome = input('Digite seu nome para participar:').strip()
-print('Boa sorte e divirta-se,',nome)
-
+print('Boa sorte e divirta-se,', nome)
 print(' ')
 print(' ')
 print('_____________________________________')
 print('       ESCOLHENDO EM UM NÚMERO')
 print('_____________________________________')
+time.sleep(2)
 print(' ')
 print(' ')
 
