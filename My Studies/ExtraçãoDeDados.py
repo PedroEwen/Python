@@ -11,4 +11,6 @@ while r == 's':
 print(f'Você digitou {len(nums)} valores')
 print(f'São eles: {nums}')
 if 10 in nums:
-    print('O valor 10 faz parte dos elementos')
+    print(' valor 10 faz parte dos elementos')
+else:
+    print('O 10 não faz parte dos elementos')
